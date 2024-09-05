@@ -1,0 +1,41 @@
+.h-font{
+    font-family: 'Reem Kufi Fun',cursive;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+input[type=number] {
+-moz-appearance: textfield;
+}
+.swiper-slide img {
+display: block;
+width: 100%;
+height: 600px;
+}
+.custom-bg{
+    background-color: #2ec1ac;
+}
+.custom-bg:hover{
+    background-color: #279e8c;
+}
+
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+.message-box {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
